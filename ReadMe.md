@@ -4,8 +4,6 @@
 
 ---
 
----
-
 1. Visual Studio Code Download
    - [link](https://code.visualstudio.com/download)
 2. Git Download
