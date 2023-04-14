@@ -11,20 +11,20 @@
    ```zsh
    git --version
    ```
-3. solarized theme download
+3. Solarized Theme Download
    - [link](https://github.com/speedpacer/gitbash_solarized)
 4. ![options](./images/GitBashSize.png)
 5. Install ZSH Windows Git Bash
    - [link](https://gist.github.com/fworks/af4c896c9de47d827d4caa6fd7154b6b)
-6. oh my zsh git bash download
+6. `oh my zsh` Git Bash Download
    - [link](https://gist.github.com/fworks/af4c896c9de47d827d4caa6fd7154b6b)
-7. oh my zsh powerlevel10k
+7. `oh my zsh` --> powerlevel10k
    - [link](https://github.com/romkatv/powerlevel10k)
-8. oh my zsh highlighter
+8. `oh my zsh` Highlighter
    - [link](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 9. Optional
 
-   - oh my zsh autocomplate
+   - `oh my zsh` Autocomplate
    - [link](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df)
 
 10. ![font](./images/GitBashFont.png)
@@ -37,14 +37,14 @@ alias ga='git add'
 alias gaa='git add .'
 alias gst='git status'
 alias gsts='git status --short'
-alias gi='git init' # .git --> Local Repo , git istenilen dosyalari takip etsin
+alias gi='git init'
 alias gcm="git commit -m"
 alias gac='git add . && git commit -m' # git commit -am "initial commit"
 alias gr='git remote'
 alias gb='git branch --list'
 alias gbr='git branch --remote'
 alias gbdelete='git branch -d'
-alias gshw='git show' # son yapilan commit
+alias gshw='git show'
 alias gl='git log'
 alias glo='git log --online'
 alias glga='git log --graph --online --decorate --all'
@@ -71,15 +71,15 @@ alias gp='git push'
 alias gpo='git push origin'
 alias grt='git revert'
 alias grs='git restore --staged' # SA --> WD
-alias grestore='git restore' # Degisiklikleri iptal etme
+alias grestore='git restore'
 alias gresets='git reset --soft' # LR --> SA
 alias gresetm='git reset --mixed' # SA --> WD
 alias greseth='git reset --hard' # WD --> CLEAR
 
 alias grm='git rm --cached' #Staging Area --> Working Directory
 alias gcf='git config --list'
-alias grmrc='git rm -r --cached' # Takipteki dosyalari izlemeden kaldir
-alias grro='git remote remove origin' # kayıtlı origin'i silmek için kullanılır
+alias grmrc='git rm -r --cached'
+alias grro='git remote remove origin'
 alias tree='cmd //c tree //a'
 
 # other aliases
